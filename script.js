@@ -6,7 +6,8 @@ function insert_Row() {
 	cellOne.innerHTML = "New Cell1"
 	const cellTwo = document.createElement("td");
 	cellTwo.innerHTML = "New Cell2"
-	newRow.appendChild(cellOne, cellTwo)
+	newRow.appendChild(cellOne)
+	newRow.appendChild(cellTwo)
 	Table.appendChild(newRow);
   
 }
