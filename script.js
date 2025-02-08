@@ -3,9 +3,9 @@ function insert_Row() {
 	const Table = document.getElementById("sampleTable");
 	const newRow = document.createElement("tr");
 	const cellOne = document.createElement("td");
-	cellOne.innerHTML = "New Cell 1"
+	cellOne.innerHTML = "New Cell1"
 	const cellTwo = document.createElement("td");
-	cellTwo.innerHTML = "New Cell 2"
+	cellTwo.innerHTML = "New Cell2"
 	newRow.appendChild(cellOne, cellTwo)
 	Table.appendChild(newRow);
   
